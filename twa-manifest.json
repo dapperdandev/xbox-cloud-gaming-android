@@ -1,0 +1,41 @@
+{
+  "packageId": "com.dapperdandev.xbox.unofficial",
+  "host": "www.xbox.com",
+  "name": "Xbox Cloud Gaming (Unofficial)",
+  "launcherName": "Xbox GCU",
+  "display": "fullscreen",
+  "themeColor": "#FFFFFF",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/en-US/play?pwaVersion=1.0",
+  "iconUrl": "https://assets-www.xbox.com/xbox-web/static/media/manifest-icon-512.7345fd4f.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/daniel.breen/Keystore/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://www.xbox.com/en-US/play/manifest.webmanifest?page.name=Home",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://www.xbox.com/en-US/play",
+  "minSdkVersion": 19,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}
