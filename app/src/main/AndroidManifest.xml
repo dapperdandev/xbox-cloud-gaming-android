@@ -23,6 +23,8 @@
     package="com.dapperdandev.xbox.unofficial">
 
     
+        <uses-permission android:name="android.permission.INTERNET"/>
+    
 
     
 

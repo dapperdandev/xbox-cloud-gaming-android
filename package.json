@@ -1,0 +1,21 @@
+{
+  "name": "xbox-cloud-gaming-android",
+  "version": "1.0.0",
+  "description": "TODO",
+  "scripts": {
+    "build": "bubblewrap build --skipSigning"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djbreen7/xbox-cloud-gaming-android.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djbreen7/xbox-cloud-gaming-android/issues"
+  },
+  "homepage": "https://github.com/djbreen7/xbox-cloud-gaming-android#readme",
+  "devDependencies": {
+    "@bubblewrap/cli": "^1.18.1"
+  }
+}

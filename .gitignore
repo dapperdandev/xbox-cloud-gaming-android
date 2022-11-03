@@ -1,2 +1,4 @@
-.gradle
+.gradle/
 app/build/
+node_modules/
+*.apk
