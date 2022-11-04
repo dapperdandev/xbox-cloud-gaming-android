@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TODO",
   "scripts": {
-    "build": "bubblewrap build --skipSigning"
+    "build": "bubblewrap build"
   },
   "repository": {
     "type": "git",

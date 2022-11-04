@@ -1,4 +1,7 @@
 .gradle/
+.idea/
 app/build/
 node_modules/
 *.apk
+*.apk.idsig
+*.aab

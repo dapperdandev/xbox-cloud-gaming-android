@@ -15,15 +15,15 @@
   "iconUrl": "https://assets-www.xbox.com/xbox-web/static/media/manifest-icon-512.7345fd4f.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
-    "path": "/Users/daniel.breen/Keystore/android.keystore",
-    "alias": "android"
+    "path": "/Users/daniel.breen/.android/debug.keystore",
+    "alias": "androiddebugkey"
   },
-  "appVersionName": "2",
-  "appVersionCode": 2,
+  "appVersionName": "6",
+  "appVersionCode": 6,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://www.xbox.com/en-US/play/manifest.webmanifest?page.name=Home",
-  "fallbackType": "webview",
+  "fallbackType": "customtabs",
   "features": {},
   "alphaDependencies": {
     "enabled": false
@@ -34,8 +34,10 @@
   "fullScopeUrl": "https://www.xbox.com/en-US/play",
   "minSdkVersion": 19,
   "orientation": "default",
-  "fingerprints": [],
+  "fingerprints": [
+    "F9:35:F7:8D:3D:DC:DF:19:E4:2B:EA:63:05:A1:DD:A7:C5:04:28:7C:D8:ED:BF:C8:E7:B7:05:AA:CF:47:CE:98"
+  ],
   "additionalTrustedOrigins": [],
   "retainedBundles": [],
-  "appVersion": "2"
+  "appVersion": "6"
 }
