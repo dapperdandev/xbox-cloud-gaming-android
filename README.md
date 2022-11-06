@@ -2,7 +2,9 @@
 A wrapper for Xbox Cloud Gaming that generates a .apk file that can be installed on Chromecast with Google TV.
 
 ## Usage
-- Download the .apk file from releases
+- Download the .zip file from [releases](https://github.com/djbreen7/xbox-cloud-gaming-android/releases/tag/0.1.0)
+- Extract the .apk from the .zip file
+- TODO: Installation Instructions
 
 ## Development
 
