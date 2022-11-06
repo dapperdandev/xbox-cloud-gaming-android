@@ -21,11 +21,11 @@ plugins {
 }
 
 def twaManifest = [
-    applicationId: 'org.chromium.webapk.a590bed6987ecc41d_v2',
+    applicationId: 'com.xbox.www.twa',
     hostName: 'www.xbox.com', // The domain being opened in the TWA.
     launchUrl: '/en-US/play?pwaVersion=1.0', // The start path for the TWA. Must be relative to the domain.
-    name: 'Xbox Cloud Gaming', // The application name.
-    launcherName: 'Cloud Gaming', // The name shown on the Android Launcher.
+    name: 'Xbox Cloud Gaming (INIT)', // The application name.
+    launcherName: 'Xbox (INIT)', // The name shown on the Android Launcher.
     themeColor: '#FFFFFF', // The color used for the status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
@@ -52,11 +52,11 @@ def twaManifest = [
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId "org.chromium.webapk.a590bed6987ecc41d_v2"
+        applicationId "com.xbox.www.twa"
         minSdkVersion 19
         targetSdkVersion 31
-        versionCode 7
-        versionName "7"
+        versionCode 2
+        versionName "2"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name

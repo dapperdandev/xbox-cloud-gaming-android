@@ -20,7 +20,7 @@
      application, the package attribute will need to reflect the correct path in order to use
      the abbreviated format. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.chromium.webapk.a590bed6987ecc41d_v2">
+    package="com.xbox.www.twa">
 
     
 
