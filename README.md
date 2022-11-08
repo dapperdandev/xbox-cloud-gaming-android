@@ -1,4 +1,5 @@
-# Xbox Cloud Gaming (Unofficial)
+# Xbox Cloud Gaming PWA on Android
+## Optimized for Chromecast with Google TV
 A wrapper for the Xbox Cloud Gaming PWA that generates a .apk file that can be installed on Chromecast with Google TV (CCWGTV).
 
 ## Installation
