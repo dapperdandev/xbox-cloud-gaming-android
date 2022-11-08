@@ -1,0 +1,16 @@
+changelog:
+  exclude:
+    labels:
+      - bug
+      - documentation
+      - duplicate
+      - enhancement
+      - 'good first issue'
+      - 'help wanted'
+      - invalid
+      - question
+      - wontfix
+  categories:
+    - title: Breaking Changes / Environment Variable Updates 🛠
+      labels:
+        - 'environment variable change'
