@@ -24,9 +24,6 @@ You will need prior knowledge on sideloading apps on CCWGTV. There are several o
 ## Development
 TODO
 
-### Caveats
-- I haven't been able to `npm run build` on Windows 11. Subsystem for Linux (WSL) _might_ be a workaround.
-
 ### Pre-requisites
 WIP
 - [node](https://nodejs.org/en/)
