@@ -15,7 +15,7 @@
   "iconUrl": "https://assets-www.xbox.com/xbox-web/static/media/manifest-icon-512.7345fd4f.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
-    "path": "/Library/.android/debug.keystore",
+    "path": "./.android/debug.keystore",
     "alias": "androiddebugkey"
   },
   "appVersionName": "2",

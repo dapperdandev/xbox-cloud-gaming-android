@@ -23,8 +23,31 @@ You will need prior knowledge on sideloading apps on CCWGTV. There are several o
 1. Login as you normally would on `xbox.com/play`. At the time of writing, a mouse is required to select the login and password inputs
   
 ## Development
-TODO
 
 ### Pre-requisites
-WIP
 - [node](https://nodejs.org/en/)
+- (optional*) [JDK 11](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/)
+- (optional*) [Android SDK](https://developer.android.com/about/versions/11/setup-sdk#get-sdk)
+
+*_You have the option to let bubblewrap install JDK 11 and Android SDK for you when prompted the first time you run `npm run build`. Alternatively, you can download and install them manually. The links correlate to the same versions that bubblewrap installs. I assum you know what you're doing if you install different versions._
+
+
+**NOTE: You may need to add the binaries to the `PATH` variable manually**
+```shell
+# Paths as of writing when letting bubblewrap install
+export PATH="$PATH:$HOME/.bubblewrap/jdk/jdk-11.0.9.1+1/bin"
+export PATH="$PATH:$HOME/.bubblewrap/android_sdk/platform-tools"
+```
+
+### Setup
+1. Create a folder named `.android` in the root of this project  
+a. If you DO NOT already have a debug keystore:
+```keytool -genkey -v -keystore ./.android/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000```  
+b. If you DO already have a debug keystore, copy it into the `.android` folder you created in step one
+1. `npm install`
+
+### Building
+1. `npm run build:debug`
+
+
+
