@@ -41,11 +41,11 @@ export PATH="$PATH:$HOME/.bubblewrap/android_sdk/platform-tools"
 
 ### Setup
 1. Create a folder named `.android` in the root of this project  
-  a. If you DO NOT already have a debug keystore:  
+  a. If you already have a debug keystore, copy it into the `.android` folder you created in step one  
+  b. If you DO NOT already have a debug keystore:  
   ```shell
   keytool -genkey -v -keystore ./.android/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000
   ```  
-  b. If you DO already have a debug keystore, copy it into the `.android` folder you created in step one  
 2. `npm install`
 
 ### Building
