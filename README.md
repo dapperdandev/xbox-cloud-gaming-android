@@ -46,7 +46,7 @@ a. If you DO NOT already have a debug keystore:
 keytool -genkey -v -keystore ./.android/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000
 ```  
 b. If you DO already have a debug keystore, copy it into the `.android` folder you created in step one
-1. `npm install`
+2. `npm install`
 
 ### Building
 1. `npm run build:debug`
