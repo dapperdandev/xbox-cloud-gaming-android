@@ -1,5 +1,7 @@
 # Xbox Cloud Gaming PWA on Android
 ## Optimized for Chromecast with Google TV
+>:warning: Performance tanked on Android 12 :disappointed:. Feel free to clone/fork and attempt to produce your own apk files, but don't expect miracles. The reality is that we're trying to find a way to run an app designed for 64-bit systems to run on a 32-bit system :warning:
+
 A wrapper for the Xbox Cloud Gaming PWA that generates a .apk file that can be installed on Chromecast with Google TV (CCWGTV).
 
 ## Installation
