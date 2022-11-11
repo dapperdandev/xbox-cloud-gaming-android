@@ -33,7 +33,7 @@ You will need prior knowledge on sideloading apps on CCWGTV. There are several o
 
 
 **NOTE: You may need to add the binaries to the `PATH` variable manually**
-```shell
+```
 # Paths as of writing when letting bubblewrap install
 export PATH="$PATH:$HOME/.bubblewrap/jdk/jdk-11.0.9.1+1/bin"
 export PATH="$PATH:$HOME/.bubblewrap/android_sdk/platform-tools"
