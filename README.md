@@ -1,10 +1,30 @@
 # Xbox Cloud Gaming PWA on Android
-## Optimized for Chromecast with Google TV
->:warning: Performance tanked on Android 12 :disappointed:. Feel free to clone/fork and attempt to produce your own apk files, but don't expect miracles. The reality is that we're trying to find a way to run an app designed for 64-bit systems to run on a 32-bit system :warning:
+A wrapper for the Xbox Cloud Gaming PWA that can be sideloaded on Android.
 
-A wrapper for the Xbox Cloud Gaming PWA that generates a .apk file that can be installed on Chromecast with Google TV (CCWGTV).
+## Xbox Cloud Gaming vs Xbox Game Pass
+Xbox Cloud Gaming does not include the ability to manage PC and console games whereas Xbox Game Pass does.
 
-## Installation
+## Why Would I Want to Sideload Xbox Cloud Gaming Instead of Xbox Game Pass?
+If you only care about cloud-gaming and prefer the Xbox Cloud Gaming interface over the Xbox Game Pass one.
+
+## NVIDIA SHIELD TV Pro
+TODO
+
+### Pre-requisites
+- Connect bluetooth mouse to you SHIELD TV Pro
+- Enable Developer Options (TODO: Find reputable and non-convoluted link)
+
+### Steps
+1. Download and install/sideload [Google Chrome: Fast & Secure 107.0.5304.91 (arm-v7a)](https://www.apkmirror.com/apk/google-inc/chrome/chrome-107-0-5304-91-release/google-chrome-fast-secure-107-0-5304-91-5-android-apk-download/download/?key=e27e2cd57d80b879bc4be28ee3c9785f129bfa05&forcebaseapk=true) on your CCWGTV  
+  **Note:** You may need to uninstall Chrome from your SHIELD TV Pro if it's already installed.
+1. Download the .zip file from [releases](https://github.com/djbreen7/xbox-cloud-gaming-android/releases/tag/0.2.0)
+1. Extract the .zip file
+1. Install/sideload the extracted .apk on your SHIELD TV Pro
+
+
+## Chromecast with Google TV Guide
+> :warning: Xbox Cloud Gaming runs best on 64-bit systems. Chromecast with Google TV is a 32-bit system. As you might expect, performance is severely impacted negatively and games are more or less unplayable
+
 You will need prior knowledge on sideloading apps on CCWGTV. There are several options. Google "Sideloading apps on Chromecast with Google TV" and read some of the articles in the results.
 
 ### Pre-requisites
@@ -15,7 +35,7 @@ You will need prior knowledge on sideloading apps on CCWGTV. There are several o
 ### Steps
 1. Download and install/sideload [Google Chrome: Fast & Secure 107.0.5304.91 (arm-v7a)](https://www.apkmirror.com/apk/google-inc/chrome/chrome-107-0-5304-91-release/google-chrome-fast-secure-107-0-5304-91-5-android-apk-download/download/?key=e27e2cd57d80b879bc4be28ee3c9785f129bfa05&forcebaseapk=true) on your CCWGTV  
   **Note:** You may need to uninstall Chrome from you CCWGTV if it's already installed.
-1. Download the .zip file from [releases](https://github.com/djbreen7/xbox-cloud-gaming-android/releases/tag/0.1.0)
+1. Download the .zip file from [releases](https://github.com/djbreen7/xbox-cloud-gaming-android/releases/tag/0.2.0)
 1. Extract the .zip file
 1. Install/sideload the extracted .apk on your CCWGTV
 
